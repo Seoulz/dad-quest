@@ -1,0 +1,85 @@
+.finale {
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+
+.finale__badge {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--amber-light);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.finale__title {
+  font-size: clamp(2rem, 7vw, 2.8rem);
+  margin-bottom: 0.75rem;
+}
+
+.finale__lead {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  max-width: 26rem;
+  margin: 0 auto 2rem;
+}
+
+.finale__content {
+  display: grid;
+  gap: 1.25rem;
+  text-align: left;
+}
+
+.finale-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.finale-card h2 {
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+  color: var(--amber-light);
+}
+
+.finale-card p {
+  color: var(--text-muted);
+}
+
+.finale-letter p {
+  margin-bottom: 0.65rem;
+  white-space: pre-wrap;
+}
+
+.finale-location {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.finale-location span {
+  color: var(--amber);
+  font-weight: 600;
+}
+
+.finale-card--gift {
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.finale-card--experience {
+  border-color: rgba(52, 211, 153, 0.25);
+}
+
+.finale__closing {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--amber-light);
+  margin-top: 0.5rem;
+}
